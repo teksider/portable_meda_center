@@ -8,8 +8,8 @@
 * DLNA via kodi - miniDNLA under the hood
 * 2TB external HD - media (movies/tv)
 ## Repos
-* [releases](https://github.com/teksider/empire/releases/tag/libre-elec)
-*  [latest](https://github.com/teksider/empire/releases/download/libre-elec/20220707035213.tar)                    
+* [releases](https://github.com/teksider/portable_meda_center/releases/tag/kodi)
+*  [latest](https://github.com/teksider/portable_meda_center/releases/download/kodi/20220707035213.tar)                    
 
 ## Initial Config
 Write LibreElec img to flash media following this guide: [GUIDE](https://wiki.libreelec.tv/installation/create-media)
@@ -61,7 +61,3 @@ Create image with current date
 ```bash
 sudo dd bs=4M if=/dev/mmcblk0 | gzip > /home/tech/backups/pi3_image.`date +%d%m%y`.gz
 ```
-
-# Finished Product:
-![kodi-1](pictures/pi3_kodi_1.jpeg)
-![kodi-2](pictures/pi3_kodi_2.jpeg)
